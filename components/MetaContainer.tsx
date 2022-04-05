@@ -4,13 +4,12 @@ import { useRouter } from 'next/router'
 import Navbar from '@components/Navigation'
 import Footer from '@components/Footer'
 
-export default function MetaContainer({
-  children,
-  customMeta,
-}: {
-  children: any
-  customMeta: any
-}) {
+type LayoutProps = {
+  children: React.ReactNode
+  customMeta: React.ReactNode
+}
+
+export default function MetaContainer({ children, customMeta }: LayoutProps) {
   const router = useRouter()
 
   const meta = {
