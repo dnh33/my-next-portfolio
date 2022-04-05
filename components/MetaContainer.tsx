@@ -6,7 +6,7 @@ import Footer from '@components/Footer'
 
 type LayoutProps = {
   children: React.ReactNode
-  customMeta: React.ReactNode
+  customMeta: any
 }
 
 export default function MetaContainer({ children, customMeta }: LayoutProps) {
