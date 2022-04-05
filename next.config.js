@@ -4,4 +4,5 @@ module.exports = {
   images: {
     domains: ['bico.media'],
   },
+  ignoreBuildErrors: true,
 }
