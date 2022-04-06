@@ -13,8 +13,9 @@ export default function MetaContainer({ children, customMeta }: LayoutProps) {
   const router = useRouter()
 
   const meta = {
-    title: 'Daniel Niemann Hjermitslev - Tech Geek, Developer, Writer',
-    description: `I've been working in IT for ~12 years straight. Get in touch with me to know more.`,
+    title:
+      'Daniel Niemann Hjermitslev - Tech Geek, Developer, Musician, Writer',
+    description: `I've been working in IT for ~2 years straight. Get in touch with me to know more.`,
     image: '/public/avatar.png',
     type: 'website',
     date: new Date().toDateString(),
