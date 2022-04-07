@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import userData from 'constants/data'
 
 type LayoutProps = {
@@ -38,8 +39,10 @@ const ProjectCard = ({ title, link, imgUrl, number }: LayoutProps) => {
     <a href={link} className="block w-full shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
-          <img
+          <Image
             src={imgUrl}
+            width={560}
+            height={288}
             alt="ㅤ"
             className="duration-2000 h-full w-full transform object-cover transition ease-out hover:scale-125"
           />
