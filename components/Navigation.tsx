@@ -20,7 +20,10 @@ const Navigation = () => {
         <div className="flex items-center space-x-5">
           <Link href="/projects">
             <a className="font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500">
-              See projects
+              see projects
+            </a>
+            <a className="font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500">
+              contact me
             </a>
           </Link>
           <ThemeSwitch />
