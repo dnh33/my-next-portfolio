@@ -96,7 +96,11 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form flex flex-col rounded-lg bg-white p-4 dark:bg-gray-800">
+          <form
+            className="form flex flex-col rounded-lg bg-white p-4 dark:bg-gray-800"
+            method="POST"
+            data-netlify="true"
+          >
             <label
               htmlFor="name"
               className="mx-4 text-sm text-gray-600 dark:text-gray-200"
