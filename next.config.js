@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['bico.media'],
+    domains: ['bico.media', 'picsum.photos'],
   },
   typescript: {
     // !! WARN !!

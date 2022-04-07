@@ -49,7 +49,7 @@ export default function MetaContainer({ children, customMeta }: LayoutProps) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="w-full">
+      <main className="w-full dark:bg-gray-800">
         <Navbar />
         <div>{children}</div>
         <Footer />

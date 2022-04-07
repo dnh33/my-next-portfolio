@@ -48,9 +48,9 @@ const Main = () => {
             height={250}
           />
           <div className="mt-6 flex justify-center">
-            <div className="flex space-x-4 font-medium text-gray-800 dark:text-white sm:block sm:flex md:flex lg:flex">
+            <div className="flex space-x-4 font-medium text-gray-800 dark:text-white sm:flex md:flex lg:flex">
               <a
-                className="transition-colors hover:text-sky-500"
+                className="transition-colors hover:text-sky-600"
                 target="_blank"
                 rel="noreferrer"
                 href="https://twetch.com/jointheparty"
@@ -70,7 +70,7 @@ const Main = () => {
                 </svg>
               </a>
               <a
-                className="transition-colors hover:text-sky-500"
+                className="transition-colors hover:text-sky-600"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/abravenewworld"
@@ -89,7 +89,7 @@ const Main = () => {
                 </svg>
               </a>
               <a
-                className="transition-colors hover:text-sky-500"
+                className="transition-colors hover:text-sky-600"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/dnh33"
