@@ -55,7 +55,7 @@ export default function Contact() {
             <div className="social-icons flex flex-row space-x-8">
               <a
                 href={userData.socialLinks.twetch}
-                className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full hover:bg-blue-500"
+                className="hover:text-color-white flex h-10 w-10 cursor-pointer items-center justify-center rounded-full hover:bg-blue-500 hover:text-white"
               >
                 <svg
                   height="1em"
@@ -73,7 +73,7 @@ export default function Contact() {
               </a>
               <a
                 href={userData.socialLinks.github}
-                className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full hover:bg-blue-500"
+                className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full hover:bg-blue-500 hover:text-white"
               >
                 <svg
                   stroke="currentColor"
@@ -92,39 +92,43 @@ export default function Contact() {
                 href={userData.socialLinks.handcash}
                 className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full hover:bg-blue-500 hover:text-white"
               >
-                <span className="font-bold hover:text-white">
-                  H<span className="hover:text-green-500">C</span>
-                </span>
+                <span className="font-bold">HC</span>
               </a>
             </div>
           </div>
-          <form className="form flex flex-col rounded-lg bg-white p-4">
-            <label htmlFor="name" className="mx-4 text-sm text-gray-600">
+          <form className="form flex flex-col rounded-lg bg-white p-4 dark:bg-gray-800">
+            <label
+              htmlFor="name"
+              className="mx-4 text-sm text-gray-600 dark:text-gray-200"
+            >
               {' '}
               Your Name
             </label>
             <input
               type="text"
-              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-white"
+              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
               name="name"
             />
-            <label htmlFor="email" className="mx-4 mt-4 text-sm text-gray-600">
+            <label
+              htmlFor="email"
+              className="mx-4 mt-4 text-sm text-gray-600 dark:text-gray-200"
+            >
               Email
             </label>
             <input
               type="text"
-              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-white"
+              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
               name="email"
             />
             <label
               htmlFor="message"
-              className="mx-4 mt-4 text-sm text-gray-600 "
+              className="mx-4 mt-4 text-sm text-gray-600 dark:text-gray-200"
             >
               Message
             </label>
             <textarea
               rows={4}
-              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-white"
+              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
               name="message"
             ></textarea>
             <button
