@@ -25,6 +25,12 @@ const userData = {
       imgUrl:
         'https://bico.media/e9630512672bd0179f7a1a4484f5f484bc22c4d6f05ca6e2192bbfeabaa8ca63',
     },
+    {
+      title: 'Universal Domains',
+      link: 'https://universal-domains.vercel.app/',
+      imgUrl:
+        'https://bico.media/46409001b99b86104dc560336239bf2c10e262b316bb54bb2ee1d7a26257514c',
+    },
   ],
   about: {
     title:
