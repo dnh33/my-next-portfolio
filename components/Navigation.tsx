@@ -22,8 +22,10 @@ const Navigation = () => {
             <a className="font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500">
               see projects
             </a>
+          </Link>
+          <Link href="/contact">
             <a className="font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500">
-              contact me
+              get in touch
             </a>
           </Link>
           <ThemeSwitch />
