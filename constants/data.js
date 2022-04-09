@@ -8,13 +8,19 @@ const userData = {
   address: 'Denmark',
   projects: [
     {
+      title: 'Universal Domains',
+      link: 'https://universal-domains.vercel.app/',
+      imgUrl:
+        'https://bico.media/46409001b99b86104dc560336239bf2c10e262b316bb54bb2ee1d7a26257514c',
+    },
+    {
       title: 'The Lighthouse',
       link: 'https://the-lighthouse.vercel.app/',
       imgUrl:
         'https://bico.media/ac4924907fe9339f80d80058eb41d6b8e31959d87d3384ac1f643924be93f3df',
     },
     {
-      title: 'Football App',
+      title: 'Sports App',
       link: 'https://footballmatch-app.vercel.app/',
       imgUrl:
         'https://bico.media/46743eeba9857cd9a474041442caecdb51a4bb14cbe78f0a7e80e9d295bffe57',
@@ -24,12 +30,6 @@ const userData = {
       link: 'https://dappy.netlify.app/',
       imgUrl:
         'https://bico.media/e9630512672bd0179f7a1a4484f5f484bc22c4d6f05ca6e2192bbfeabaa8ca63',
-    },
-    {
-      title: 'Universal Domains',
-      link: 'https://universal-domains.vercel.app/',
-      imgUrl:
-        'https://bico.media/46409001b99b86104dc560336239bf2c10e262b316bb54bb2ee1d7a26257514c',
     },
   ],
   about: {

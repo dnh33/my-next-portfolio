@@ -21,7 +21,7 @@ export default function Contact() {
               </p>
             </header>
             <div className="icons-container my-20 inline-flex flex-col">
-              <div className="flex flex-row items-center space-x-6 rounded-md border p-4 hover:border hover:border-blue-500">
+              <div className="flex flex-row items-center space-x-6 rounded-md border p-4 hover:border ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -36,7 +36,7 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border p-4 hover:border hover:border-blue-500">
+              <div className="flex flex-row items-center space-x-6 rounded-md border p-4 hover:border ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -110,7 +110,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
+              className="mx-4 mt-2 rounded-md border border-gray-400 py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
               name="name"
             />
             <label
@@ -121,18 +121,18 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
+              className="mx-4 mt-2 rounded-md border border-gray-400 py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
               name="email"
             />
             <label
               htmlFor="message"
-              className="mx-4 mt-4 text-sm text-gray-600 dark:text-gray-200"
+              className="mx-4 mt-4 border-gray-300 text-sm text-gray-600 dark:text-gray-200"
             >
               Message
             </label>
             <textarea
               rows={4}
-              className="mx-4 mt-2 rounded-md border py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
+              className="border-color-gray-200 mx-4 mt-2 rounded-md border border-gray-400 py-2 px-1 font-light ring-blue-500 focus:border-none focus:outline-none focus:ring-2 dark:bg-gray-900"
               name="message"
             ></textarea>
             <button
