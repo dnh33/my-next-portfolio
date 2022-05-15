@@ -53,7 +53,7 @@ const Main = () => {
                 className="transition-colors hover:text-sky-600"
                 target="_blank"
                 rel="noreferrer"
-                href="https://twetch.com/jointheparty"
+                href="https://twet.ch/inv/jointheparty"
               >
                 <svg
                   height="1em"
@@ -113,9 +113,7 @@ const Main = () => {
                 rel="noreferrer"
                 href="https://handcash.io/#/invite/clunkykong"
               >
-                <span className="font-bold">
-                  Hand<span className="hover:text-green-500">cash</span>
-                </span>
+                <span className="font-bold hover:text-sky-600">Handcash</span>
               </a>
             </div>
           </div>
